@@ -4,6 +4,7 @@
 }
 
 .hero {
+  position: realtive;
   padding: 40px 24px;
   min-height: 300px;
   isolation: isolate;
