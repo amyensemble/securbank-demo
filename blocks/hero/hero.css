@@ -7,6 +7,7 @@
   position: relative;
   padding: 40px 24px;
   min-height: 300px;
+  isolation: isolate;
 }
 
 .hero::after {
@@ -18,6 +19,11 @@
   opacity: 0.4;
   pointer-events: none;
   z-index: 0;
+}
+
+.hero > *:not(picture) {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
