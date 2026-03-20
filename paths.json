@@ -1,8 +1,8 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/"
+    "/content/securbank/:/"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/securbank/"
   ]
 }
