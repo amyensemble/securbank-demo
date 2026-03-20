@@ -46,7 +46,7 @@
           "name": "button",
           "value": "",
           "label": "Button",
-          "valueType": "button"
+          "valueType": "string"
         }
       ]
     }
