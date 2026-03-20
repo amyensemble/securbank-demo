@@ -4,15 +4,13 @@
 }
 
 .hero {
+  position: relative;
   padding: 40px 24px;
   min-height: 300px;
-  isolation: isolate;
 }
 
 .hero h1 {
-  position: relative;
   max-width: 1200px;
-  z-index: 1;
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
@@ -24,17 +22,6 @@
   inset: 0;
   object-fit: cover;
   box-sizing: border-box;
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: #000;
-  mix-blend-mode: multiply;
-  opacity: 0.4;
-  pointer-events: none;
-  z-index: 0;
 }
 
 .hero img {
