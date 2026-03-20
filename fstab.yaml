@@ -1,6 +1,6 @@
+
 mountpoints:
   /:
-    url: "https://author-p133654-e1305513.adobeaemcloud.com/bin/franklin.delivery/amyensemble/securbank-demo/main"
-    type: "markup"
-    suffix: ".html"
+    url: https://preview-p133654-e1305513.adobeaemcloud.com
+    type: aem
 
