@@ -9,6 +9,21 @@
   min-height: 300px;
 }
 
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+.hero > *:not(picture) {
+  position: relative;
+  z-index: 1;
+}
+
 .hero h1 {
   max-width: 1200px;
   margin-left: auto;
