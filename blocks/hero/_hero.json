@@ -42,11 +42,11 @@
           "valueType": "string"
         },
          {
-          "component": "richtext2",
-          "name": "text",
+          "component": "button",
+          "name": "button",
           "value": "",
-          "label": "Text",
-          "valueType": "string"
+          "label": "Button",
+          "valueType": "button"
         }
       ]
     }
