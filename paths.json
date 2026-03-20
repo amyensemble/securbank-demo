@@ -1,6 +1,7 @@
 {
   "mappings": [
-    "/content/securbank/:/"
+    "/content/securbank/:/",
+    "/content/securbank/configuration:/.helix/config.json"
   ],
   "includes": [
     "/content/securbank/"
